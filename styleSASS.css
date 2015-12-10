@@ -33,17 +33,25 @@
 
 .facebook {
   background-color: #3c5a99; }
+  .facebook:hover {
+    background-color: #2e4474; }
 
 .soundcloud {
   background-color: #ff3300; }
+  .soundcloud:hover {
+    background-color: #cc2900; }
 
 .medium {
   background-color: #ffffff; }
+  .medium:hover {
+    background-color: #e6e6e6; }
   .medium .textButton {
     color: #0BE370; }
 
 .twitter {
   background-color: #55ACEE; }
+  .twitter:hover {
+    background-color: #2795e9; }
 
 .container-fluid {
   display: flex;
