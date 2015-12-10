@@ -1,0 +1,55 @@
+@import 'components';
+@import 'buttons';
+
+.container-fluid {
+  display: flex;
+  height: 100vh;
+  background: url("/images/wlppr/wide/road.jpg");
+  background-size: cover;
+  background-position: center;
+
+  font-family: Ubuntu, Helvetica, sans-serif;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .content {
+        background-color: transparent;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .content {
+      min-width: 320px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 15px;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.20);
+    }
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
