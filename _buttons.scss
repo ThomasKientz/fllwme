@@ -1,13 +1,25 @@
+$facebook-color: #3c5a99;
+$soundcloud-color: #ff3300;
+$medium-color: #ffffff;
+$twitter-color: #55ACEE;
+
+@mixin background-color-and-darken-hover($background-color) {
+  background-color: $background-color;
+  &:hover {
+    background-color: darken( $background-color, 10% );
+  }
+}
+
 .facebook {
-  background-color: #3c5a99;
+  @include background-color-and-darken-hover($facebook-color);
 }
 
 .soundcloud {
-  background-color: #ff3300;
+  @include background-color-and-darken-hover($soundcloud-color);
 }
 
 .medium {
-  background-color: #ffffff;
+  @include background-color-and-darken-hover($medium-color);
 
   .textButton {
     color: #0BE370;
@@ -15,5 +27,5 @@
 }
 
 .twitter {
-  background-color: #55ACEE;
+  @include background-color-and-darken-hover($twitter-color);
 }
