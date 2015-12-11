@@ -56,7 +56,7 @@
 .container-fluid {
   display: flex;
   height: 100vh;
-  background: url("images/wlppr/wide/road.jpg");
+  background: url("images/backgrounds/road1/road1_2000px.jpg");
   background-size: cover;
   background-position: center;
   font-family: Ubuntu, Helvetica, sans-serif; }
@@ -90,4 +90,4 @@ a:hover {
 a:active {
   text-decoration: none; }
 
-/*# sourceMappingURL=styleSASS.css.map */
+/*# sourceMappingURL=style.css.map */
