@@ -83,12 +83,14 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #238E32;
   color: white;
   padding: 5px;
   border-radius: 5px;
   font-size: 18px;
-  position: fixed; }
+  position: fixed;
+  background-color: #238E32; }
+  .banner:hover {
+    background-color: #196524; }
 
 a:link {
   text-decoration: none; }
@@ -98,7 +100,7 @@ a:visited {
 
 a:hover {
   text-decoration: none;
-  color: inherit; }
+  color: white; }
 
 a:active {
   text-decoration: none; }
