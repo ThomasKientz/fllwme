@@ -7,11 +7,9 @@
   background: url("images/backgrounds/road1/road1_2000px.jpg");
   background-size: cover;
   background-position: center;
-
+  text-align: center;
   font-family: Ubuntu, Helvetica, sans-serif;
 }
-
-
 
 @media only screen and (max-width: 500px) {
     .content {
@@ -37,6 +35,17 @@
   flex-direction: column;
 }
 
+.banner{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #238E32;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    position: fixed;
+}
 
 a:link {
     text-decoration: none;
@@ -48,6 +57,7 @@ a:visited {
 
 a:hover {
     text-decoration: none;
+    color: inherit;
 }
 
 a:active {
