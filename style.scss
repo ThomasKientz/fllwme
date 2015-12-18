@@ -1,14 +1,23 @@
 @import 'components';
 @import 'buttons';
 
-.container-fluid {
-  display: flex;
+body {
   height: 100vh;
-  background: url("images/backgrounds/road1/road1_2000px.jpg");
+  background: url("images/backgrounds/road1/road1_2000px.jpg") no-repeat fixed;
   background-size: cover;
   background-position: center;
+}
+
+.container-fluid {
   text-align: center;
   font-family: Ubuntu, Helvetica, sans-serif;
+}
+
+.page-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-bottom: -30px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -16,6 +25,7 @@
         background-color: transparent;
         margin: auto;
         width: 100%;
+        padding-top: 20px;
     }
 }
 
@@ -27,6 +37,8 @@
       border-radius: 15px;
       padding: 20px;
       background-color: rgba(0, 0, 0, 0.20);
+      margin-top: 50px;
+      margin-bottom: 50px;
     }
 }
 
@@ -35,16 +47,12 @@
   flex-direction: column;
 }
 
-.banner{
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 18px;
-    position: fixed;
-    @include background-color-and-darken-hover(#238E32);
+.login {
+  font-weight: 500;
+}
+
+.footer {
+
 }
 
 a:link {
@@ -57,7 +65,6 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-    color: white;
 }
 
 a:active {

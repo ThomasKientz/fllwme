@@ -7,6 +7,7 @@ $twitter-color: #55ACEE;
   background-color: $background-color;
   &:hover {
     background-color: darken( $background-color, 10% );
+    color: white;
   }
 }
 
@@ -28,4 +29,8 @@ $twitter-color: #55ACEE;
 
 .twitter {
   @include background-color-and-darken-hover($twitter-color);
+}
+
+.Button:last-of-type {
+    margin-bottom: 0px;
 }

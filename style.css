@@ -34,39 +34,54 @@
 .facebook {
   background-color: #3c5a99; }
   .facebook:hover {
-    background-color: #2e4474; }
+    background-color: #2e4474;
+    color: white; }
 
 .soundcloud {
   background-color: #ff3300; }
   .soundcloud:hover {
-    background-color: #cc2900; }
+    background-color: #cc2900;
+    color: white; }
 
 .medium {
   background-color: #ffffff; }
   .medium:hover {
-    background-color: #e6e6e6; }
+    background-color: #e6e6e6;
+    color: white; }
   .medium .textButton {
     color: #0BE370; }
 
 .twitter {
   background-color: #55ACEE; }
   .twitter:hover {
-    background-color: #2795e9; }
+    background-color: #2795e9;
+    color: white; }
+
+.Button:last-of-type {
+  margin-bottom: 0px; }
+
+body {
+  height: 100vh;
+  background: url("images/backgrounds/road1/road1_2000px.jpg") no-repeat fixed;
+  background-size: cover;
+  background-position: center; }
 
 .container-fluid {
-  display: flex;
-  height: 100vh;
-  background: url("images/backgrounds/road1/road1_2000px.jpg");
-  background-size: cover;
-  background-position: center;
   text-align: center;
   font-family: Ubuntu, Helvetica, sans-serif; }
+
+.page-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-bottom: -30px; }
 
 @media only screen and (max-width: 500px) {
   .content {
     background-color: transparent;
     margin: auto;
-    width: 100%; } }
+    width: 100%;
+    padding-top: 20px; } }
 @media only screen and (min-width: 500px) {
   .content {
     min-width: 320px;
@@ -74,23 +89,15 @@
     margin: auto;
     border-radius: 15px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.2); } }
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    margin-bottom: 50px; } }
 .buttonsContainer {
   display: flex;
   flex-direction: column; }
 
-.banner {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  color: white;
-  padding: 5px;
-  border-radius: 5px;
-  font-size: 18px;
-  position: fixed;
-  background-color: #238E32; }
-  .banner:hover {
-    background-color: #196524; }
+.login {
+  font-weight: 500; }
 
 a:link {
   text-decoration: none; }
@@ -99,8 +106,7 @@ a:visited {
   text-decoration: none; }
 
 a:hover {
-  text-decoration: none;
-  color: white; }
+  text-decoration: none; }
 
 a:active {
   text-decoration: none; }
