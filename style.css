@@ -29,7 +29,19 @@
 
 .logoButton {
   max-width: 30px;
-  max-width: 30px; }
+  max-height: 30px; }
+
+.snapchat {
+  background-color: #FFFF0A; }
+  .snapchat:hover {
+    background-color: #d6d600;
+    color: white; }
+
+.instagram {
+  background-color: #3F729B; }
+  .instagram:hover {
+    background-color: #305777;
+    color: white; }
 
 .facebook {
   background-color: #3c5a99; }
@@ -84,8 +96,7 @@ body {
     padding-top: 20px; } }
 @media only screen and (min-width: 500px) {
   .content {
-    min-width: 320px;
-    max-width: 600px;
+    width: 320px;
     margin: auto;
     border-radius: 15px;
     padding: 20px;
