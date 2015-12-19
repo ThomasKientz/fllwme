@@ -5,8 +5,7 @@
 
 .user-name {
   font-size: 30px;
-  margin-top: 10px;
-  margin-bottom: 29px; }
+  margin-top: 10px; }
 
 .Button {
   display: flex;
@@ -73,10 +72,13 @@
   margin-bottom: 0px; }
 
 body {
-  height: 100vh;
   background: url("images/backgrounds/road1/road1_2000px.jpg") no-repeat fixed;
   background-size: cover;
-  background-position: center; }
+  background-attachment: fixed;
+  background-position: center center; }
+  @media only screen and (max-width: 500px) {
+    body {
+      background-attachment: scroll; } }
 
 .container-fluid {
   text-align: center;
@@ -105,10 +107,14 @@ body {
     margin-bottom: 50px; } }
 .buttonsContainer {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-top: 20px; }
 
 .login {
   font-weight: 500; }
+
+.footer {
+  margin-top: 30px; }
 
 a:link {
   text-decoration: none; }

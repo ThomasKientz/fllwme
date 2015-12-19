@@ -2,11 +2,16 @@
 @import 'buttons';
 
 body {
-  height: 100vh;
   background: url("images/backgrounds/road1/road1_2000px.jpg") no-repeat fixed;
   background-size: cover;
-  background-position: center;
+  background-attachment: fixed;
+  background-position: center center;
+
+  @media only screen and (max-width: 500px) {
+      background-attachment: scroll;
+  }
 }
+
 
 .container-fluid {
   text-align: center;
@@ -44,6 +49,7 @@ body {
 .buttonsContainer {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 .login {
@@ -51,7 +57,7 @@ body {
 }
 
 .footer {
-
+  margin-top: 30px;
 }
 
 a:link {
