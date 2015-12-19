@@ -1,0 +1,125 @@
+.user-photo {
+  width: 150px;
+  /*border: 2px solid black;*/
+  border-radius: 100%; }
+
+.user-name {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 29px; }
+
+.Button {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: black;
+  border-radius: 5px; }
+
+.logoContainer {
+  display: flex;
+  height: 100%;
+  width: 80px; }
+
+.textButton {
+  color: white; }
+
+.logoButton {
+  margin: auto; }
+
+.logoButton {
+  max-width: 30px;
+  max-height: 30px; }
+
+.snapchat {
+  background-color: #FFFF0A; }
+  .snapchat:hover {
+    background-color: #d6d600;
+    color: white; }
+
+.instagram {
+  background-color: #3F729B; }
+  .instagram:hover {
+    background-color: #305777;
+    color: white; }
+
+.facebook {
+  background-color: #3c5a99; }
+  .facebook:hover {
+    background-color: #2e4474;
+    color: white; }
+
+.soundcloud {
+  background-color: #ff3300; }
+  .soundcloud:hover {
+    background-color: #cc2900;
+    color: white; }
+
+.medium {
+  background-color: #ffffff; }
+  .medium:hover {
+    background-color: #e6e6e6;
+    color: white; }
+  .medium .textButton {
+    color: #0BE370; }
+
+.twitter {
+  background-color: #55ACEE; }
+  .twitter:hover {
+    background-color: #2795e9;
+    color: white; }
+
+.Button:last-of-type {
+  margin-bottom: 0px; }
+
+body {
+  height: 100vh;
+  background: url("images/backgrounds/road1/road1_2000px.jpg") no-repeat fixed;
+  background-size: cover;
+  background-position: center; }
+
+.container-fluid {
+  text-align: center;
+  font-family: Ubuntu, Helvetica, sans-serif; }
+
+.page-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-bottom: -30px; }
+
+@media only screen and (max-width: 500px) {
+  .content {
+    background-color: transparent;
+    margin: auto;
+    width: 100%;
+    padding-top: 20px; } }
+@media only screen and (min-width: 500px) {
+  .content {
+    width: 320px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    margin-bottom: 50px; } }
+.buttonsContainer {
+  display: flex;
+  flex-direction: column; }
+
+.login {
+  font-weight: 500; }
+
+a:link {
+  text-decoration: none; }
+
+a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+a:active {
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

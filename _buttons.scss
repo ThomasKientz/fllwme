@@ -1,0 +1,46 @@
+$facebook-color: #3c5a99;
+$soundcloud-color: #ff3300;
+$medium-color: #ffffff;
+$twitter-color: #55ACEE;
+$instagram-color: #3F729B;
+$snapchat-color: #FFFF0A;
+
+@mixin background-color-and-darken-hover($background-color) {
+  background-color: $background-color;
+  &:hover {
+    background-color: darken( $background-color, 10% );
+    color: white;
+  }
+}
+
+.snapchat {
+  @include background-color-and-darken-hover($snapchat-color);
+}
+
+.instagram {
+  @include background-color-and-darken-hover($instagram-color);
+}
+
+.facebook {
+  @include background-color-and-darken-hover($facebook-color);
+}
+
+.soundcloud {
+  @include background-color-and-darken-hover($soundcloud-color);
+}
+
+.medium {
+  @include background-color-and-darken-hover($medium-color);
+
+  .textButton {
+    color: #0BE370;
+  }
+}
+
+.twitter {
+  @include background-color-and-darken-hover($twitter-color);
+}
+
+.Button:last-of-type {
+    margin-bottom: 0px;
+}

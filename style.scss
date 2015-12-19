@@ -1,0 +1,71 @@
+@import 'components';
+@import 'buttons';
+
+body {
+  height: 100vh;
+  background: url("images/backgrounds/road1/road1_2000px.jpg") no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.container-fluid {
+  text-align: center;
+  font-family: Ubuntu, Helvetica, sans-serif;
+}
+
+.page-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-bottom: -30px;
+}
+
+@media only screen and (max-width: 500px) {
+    .content {
+        background-color: transparent;
+        margin: auto;
+        width: 100%;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .content {
+      width: 320px;
+      margin: auto;
+      border-radius: 15px;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.20);
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.login {
+  font-weight: 500;
+}
+
+.footer {
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
