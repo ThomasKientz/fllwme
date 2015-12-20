@@ -13,6 +13,10 @@
 .location {
   margin-top: 7px;
   color: #525252; }
+  @media only screen and (max-width: 500px) {
+    .location {
+      margin-top: 15px;
+      margin-bottom: 15px; } }
 
 .iconLocation {
   height: 23px;
@@ -128,6 +132,10 @@
 
 .footer {
   margin-top: 30px; }
+
+.spacer {
+  height: 50px;
+  width: 100%; }
 
 a:link {
   text-decoration: none; }

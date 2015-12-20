@@ -16,6 +16,11 @@
 .location {
   margin-top: 7px;
   color: #525252;
+
+  @media only screen and (max-width: 500px) {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
 
 .iconLocation {
